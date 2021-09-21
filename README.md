@@ -1,5 +1,7 @@
-# pemweb-224
--Nama : Andhika Putra Pratama
--NIM : 119140224
--Mata Kuliah : Pemrograman Web
--Kelas : RC
+## Pemrograman Web
+
+Repo ini untuk tugas mata kuliah **PemWeb**:
+
+- Nama : Andhika Putra Pratama
+- NIM : 119140224
+- Kelas : RC
