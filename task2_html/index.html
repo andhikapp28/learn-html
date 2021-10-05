@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pendaftaran</title>
+<style>
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-image: url("asset/img/sakura-emblem.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	height: 100vh;
+}
+h1 {
+ 	padding-bottom: 10px;
+	text-align: center;
+	text-align-last: center
+}
+.container{
+    left: 50%;
+    top: 50%;
+	padding: 20px 20px;
+    width: 400px;
+	position:absolute;
+    transform: translate(-50%,-50%);
+    background-color: rgba(11,7,3,0.70);
+    box-shadow: 0 0 10px black;
+}
+.container h1{
+    color: white;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #e7c365;
+}
+.container label{
+    color: #e7c365;
+}
+.container form input, form select{
+	width: calc(100% - 20px);
+	border: none;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+	background-color: transparent;
+    border-bottom: 2px solid #e7c365;
+    color: #fff;
+}
+.container form button{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+	text-shadow: 0.5px 0.5px #000;
+	background-color:#e7c365;
+    color: #fafafa;
+
+}
+.container select option{
+    background: #A5090C;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+</style>
+</head>
+<!-- Isi Pendaftaran -->
+<body>
+	<div class="container">
+	  <h1>PENDAFTARAN</h1>
+            <form action="home2.html" method="get" target="_self">
+			  <label for="kode">Code Name</label>
+				<br>
+				<input type="text" id="kode" name="kode">
+				<br>
+				<label for="nama">Nama</label>
+				<br>
+				<input type="text" id="nama" name="nama">
+				<br>
+                <label for="tgl">Tanggal Peluncuran</label>
+                <br>
+                <input type="date" id="tglRls" name="tglRls">
+                <br>
+                <label for="kelas">kelas</label>
+  				<select id="kelas" name="Kelas">
+   					<option value="CV">Aircraft Carrier</option>
+					<option value="CVL">Light Aircraft Carrier</option>
+    				<option value="BB">Battleship</option>
+					<option value="BC">Battlecruiser</option>
+    				<option value="DD">Destroyer</option>
+    				<option value="CA">Heavy Cruiser</option>
+					<option value="CL">Light Cruiser</option>
+					<option value="SS">Submarine</option>
+  				</select>
+                <button><strong>Register</strong></button>
+            </form>
+     </div>
+</body>
+</html>
